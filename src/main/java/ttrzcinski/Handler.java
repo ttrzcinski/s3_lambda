@@ -24,6 +24,9 @@ import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
+/**
+ * @inheritDoc
+ */
 public class Handler implements RequestHandler<S3Event, String> {
     private static final float MAX_WIDTH = 100;
     private static final float MAX_HEIGHT = 100;
